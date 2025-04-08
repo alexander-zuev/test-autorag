@@ -1,0 +1,17 @@
+[project]
+name = "test-autorag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.37.29",
+    "firecrawl-py>=1.15.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.11.2",
+    "pydantic-settings>=2.8.1",
+]
+
+[tool.markdownlint]
+ignore = ["MD007", "MD030"] # Ignore list indentation and spacing rules
+
